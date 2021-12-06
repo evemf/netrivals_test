@@ -1,3 +1,7 @@
+### Important
+1. The dashed input box, just multiplicates, the price for the number you put in.
+2. You will need to press enter to execute the formula on that product.
+
 ## Available Scripts
 
 ### `yarn start`
