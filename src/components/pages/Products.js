@@ -7,6 +7,7 @@ import '../Products.css';
 export default function Products(props) {
   let totalProducts = ProductsList.length;
 
+  
   return (
     <>
       <p>Apply price formula to my products</p>
