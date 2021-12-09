@@ -1,0 +1,55 @@
+.products {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.products li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.products li:last-child {
+  margin-bottom: 0;
+}
+
+.product-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formula-input {
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  border: 2px dashed grey;
+  text-align: center;
+  margin-top: 0;
+}
+
+.pagination {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  font-size: 2em;
+}
+
+.pagination li {
+  padding: 0 15px;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .product li {
+    flex-direction: column;
+  }
+
+  .formula-input {
+    width: 70%;
+    height: 120px;
+    font-size: 3em;
+    margin-top: 27px;
+  }
+}
